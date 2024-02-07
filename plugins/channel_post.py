@@ -85,3 +85,4 @@ async def new_post(client: Client, message: Message):
         await message.edit_reply_markup(reply_markup)
     except Exception as e:
         print(e)
+        pass
